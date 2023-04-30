@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* css variables  */
+
+:root {
+    --btn: #e26329 --white: #ffffff;
+    --fonts: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.section-title h2 {
+    text-shadow: 1px 1px 2px #444;
+}
+
+/* header section start  */
+
+nav.navbar.navbar-expand-lg {
+    box-shadow: 13px 2px 5px rgb(0 0 0 / 32%) !important;
+    padding: 14px 0px;
+}
+
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.search-form {
+    width: 300px;
+    margin-right: 90px;
+    position: relative;
+}
+
+form.search-form input {
+    border-radius: 100px;
+    padding: 6px 10px;
+    position: relative;
+}
+
+
+button.search-btn {
+    border-radius: 53px;
+    padding: 6px 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--btn);
+    color: #fff;
+    border-color: var(--btn);
+}
+
+button.search-btn:hover {
+    background-color: black;
+    border-color: black;
+}
+
+
+.action-menus .nav-item .nav-link {
+    margin: 0px 15px;
+}
+
+.action-menus a.nav-link i {
+    font-size: 17px;
+}
+
+/* header section end  */
+
+/* slider  */
+
+section#slider {
+    background-color: #e0e0e0f7;
+    margin-top: 0px;
+    /* height: 540px; */
+}
+
+nav {
+    padding: 50px 0px;
+}
+
+div#carouselExampleFade {
+    padding: 87px 0px !important;
+}
+
+
+.col-lg-6.slider-text {
+    height: 380px;
+}
+
+.col-lg-6.slider-text h2 {
+    font-size: 67px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.col-lg-6.slider-text h2,
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.slider-text h2 span {
+    color: var(--btn);
+}
+
+.col-lg-6.slider-img img {
+    height: 344px;
+    object-fit: contain;
+}
+
+.slider-btn {
+    background-color: #f17e4a99;
+    border-radius: 25px;
+    padding: 6px 20px;
+    color: var(--btn);
+    font-weight: 600;
+}
+
+.slider-btn:hover {
+    box-shadow: 2px 2px 5px rgba(255, 102, 0, 0.619);
+}
+
+/* catagory section style  */
+
+.card {
+    background-color: #f7f7f7f7;
+    margin: 10px 0px;
+}
+
+.card-body {
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.1s ease-in;
+    overflow: hidden;
+}
+
+.card-body:hover {
+    box-shadow: 0px 2px 5px #444;
+}
+
+.card-body img {
+    height: 190px;
+    object-fit: contain;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-body img:hover {
+    transform: scale(1.2);
+}
+
+.card-body h4 {
+    font-family: var(--fonts);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #444;
+    padding: 35px 0px;
+}
+
+.card-body a {
+    padding: 7px 18px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-body a:hover {
+    background-color: var(--btn) !important;
+    /* color: black; */
+}
+
+/* banner sesction design start  */
+
+
+
+.item {
+    background: #dbdbdb;
+    border-radius: 3px;
+}
+
+.item img {
+    object-fit: contain;
+    height: 210px;
+}
+
+.text {
+    width: 209px;
+}
+
+.text h2 {
+    font-size: 36px;
+    line-height: 50px;
+    text-shadow: 2px 2px 3px #444;
+    font-family: var(--fonts);
+}
+
+.text a.order-now {
+    background-color: var(--bs-success);
+    color: white;
+    padding: 7px 20px;
+    border-radius: 50px;
+}
+
+/* banner sesction design ends  */
+
+/* Letest Product design start now  */
+
+h4.Product-name {
+    font-size: 21px;
+}
+
+h2.price {
+    font-size: 34px;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+.btn a {
+    color: black !important;
+}
+
+.btn a:hover {
+    color: white !important;
+    border-color: var(--btn) !important;
+    background-color: var(--bs-success) !important;
+}
+
+.Add-to-favirate {
+    margin-left: 41px;
+    font-size: 17px;
+}
+
+a.Add-to-cart {
+    background: transparent;
+    outline: 1px solid green;
+}
+
+/* Letest Product design Ends now  */
+
+
+/* promotion banner  */
+
+.promotion-banner {
+    position: relative;
+}
+
+.promo-title {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    line-height: 69px;
+    font-size: 53px;
+}
+
+/* footer  */
+
+ul.footer-list {
+    margin: 0;
+    padding: 0px 22px;
+}
+
+ul.footer-list li a {
+    transition: all 0.4s ease-in-out;
+}
+
+ul.footer-list li a:hover {
+    color: var(--btn);
+    padding-left: 7px;
+}
+
+/* media quary */
+@media screen and (max-width: 907px) {
+    .text {
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .item {
+        text-align: center;
+    }
+}

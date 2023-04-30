@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop</title>
+  <link rel="shortcut icon" href="Img/favicon.png" type="image/x-icon">
+  <!-- bootstrap cdn link  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+  <!-- custom css add  -->
+  <link rel="stylesheet" href="sass/main.css">
+</head>
+
+<body>
+  <!-- Header section start  -->
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/ecommerce-logo-png-11.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cetagorice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 action-menus">
+            <form class="search-form" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+            </form>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-heart"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link position-relative" href="#">
+
+                <i class="bi bi-cart4"></i>
+                <span class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-danger">12</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="bi bi-person"></i>
+              </a>
+              <ul class="dropdown-menu  shadow-lg">
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                <li><a class="dropdown-item" href="#">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header section end  -->
+  <!-- slider start  -->
+  <section id="slider">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-6 slider-text">
+                <h2 class="text-success">
+                  Order <span class="lighten">Online</span>, Save Your <br>
+                  <span class="lighten">Time</span>
+                </h2>
+                <p class="text-lighten slider-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                  commodi praesentium autem alias eligendi iure odio velit consectetur nemo excepturi?</p>
+                <a href="#" class="slider-btn">Order Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+              <div class="col-lg-6 slider-img">
+                <img src="Img/Product/f1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 slider-text">
+                <h2 class="text-success">
+                  Order <span class="lighten">Online</span>, <br> Save Your<br><span class="lighten">Time</span>
+                </h2>
+                <p class="text-lighten slider-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                  commodi praesentium autem alias eligendi iure odio velit consectetur nemo excepturi?</p>
+                <a href="#" class="slider-btn">Order Now <i class="bi bi-arrow-right"></i></a>
+              </div>
+              <div class="col-lg-6 slider-img">
+                <img src="Img/Product/f3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- slider ends  -->
+  <!-- catagory product start  -->
+  <section class="catagory-product py-5">
+    <div class="container">
+      <div class="section-title text-center ">
+        <h2 class=" fw-bold">Catagory Product's</h2>
+        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product22.png" alt="">
+              <h4 class="text-center">Carrot</h4>
+              <a href="#" class="view-all-btn text-center bg-success text-uppercase">View All <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product23.png" alt="">
+              <h4 class="text-center">Onion</h4>
+              <a href="#" class="view-all-btn text-center bg-success text-uppercase">View All <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product28.png" alt="">
+              <h4 class="text-center">Capsicum</h4>
+              <a href="#" class="view-all-btn text-center bg-success text-uppercase">View All <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product27.png" alt="">
+              <h4 class="text-center">Broccoli</h4>
+              <a href="#" class="view-all-btn text-center bg-success text-uppercase">View All <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- catagory product ends  -->
+
+  <!-- Banner section start  -->
+
+
+  <sesction id="Banner" class="py-5">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-6">
+          <div class="item d-lg-flex p-4 mb-2">
+            <div class="text">
+              <p class="text-danger">Fresh Fruits</p>
+              <h2>Helthy Food</h2>
+              <p>Get 20% off collection product</p>
+              <a href="#" class="order-now text-uppercase btn-success">order now <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <img src="img/Product/f3.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="item d-lg-flex p-4 mb-2">
+            <div class="text">
+              <p class="text-danger">Fresh Fruits</p>
+              <h2>Fresh Vegitable</h2>
+              <p>Get 20% off collection product</p>
+              <a href="#" class="order-now text-uppercase btn-success">order now <i class="bi bi-arrow-right"></i></a>
+            </div>
+            <img src="img/Product/product27.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </sesction>
+
+  <!-- Banner section ends -->
+
+  <!-- Product section start  -->
+
+
+  <section class="py-5 Letest_product">
+    <div class="container">
+      <h2>Letest Product</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product27.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 45.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product1.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 85.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product2.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 48.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product3.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 220.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- most sell product  -->
+  <section class="py-5 Letest_product">
+    <div class="container">
+      <h2>Most Sell Product</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product4.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 45.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product20.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 85.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product24.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 48.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body text-center">
+              <img src="img/Product/product25.png" alt="">
+              <h4 class="Product-name py-3 text-center">Organic Cloliflower (1Kg)</h4>
+              <div class="ratting">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h2 class="price">৳ 220.00</h2>
+              <div class="btn">
+                <a href="#" class="Add-to-cart">
+                  <i class="bi bi-cart4"></i> Add to Cart
+                </a>
+                <i class="bi bi-heart text-success text-end Add-to-favirate"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Product section ends -->
+
+<!-- Promotion Banner start -->
+
+
+
+<section class="promotion py-5">
+  <div class="container promotion-banner">
+    <img style="width: 100%;" class="position-relative" src="img/banner.jpg" alt="">
+    <h1 class="fw-bold promo-title text-success">Order Online, <br> Save Your Time</h1>
+  </div>
+</section>
+
+
+<!-- Promotion Banner Ends -->
+
+<footer class="border-top py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="py-2" style="height: 40px;" src="img/ecommerce-logo-png-11.png" alt="">
+          <h4 class="fw-bold">Get The App</h4>
+          <p>Fresh app is now Available on Google Play &b Apps Store. Get it now.</p>
+          <img src="img/store1.png" alt="">
+          <img src="img/store2.png" alt="">
+        </div>
+
+        <div class="col-lg-3">
+          <h4 mb-5>Information</h4>
+          <ul class="footer-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shopping Policy</a></li>
+            <li><a href="#">Treams & Condition</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h4 mb-5>User Area</h4>
+          <ul class="footer-list">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Checkout</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h4 mb-5>Contact Info</h4>
+          <ul class="footer-list">
+            <p>+880 1907522975</p>
+            <p>Dhaka, Bangladesh 1200, Create 30-4-2023 Expire 30-12-2025</p>
+            <p>ahamedsrabon189@gmail.com</p>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright text-center">
+        <p>Copyright By &copy; <span class="text-dark fw-bold">Srabon</span> <span class="text-danger fw-bold">Ahamed</span></p>
+      </div>
+    </div>
+</footer>
+
+
+
+
+  <!-- bootstrap js connect  -->
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
