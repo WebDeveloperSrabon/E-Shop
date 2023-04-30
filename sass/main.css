@@ -58,8 +58,8 @@ button.search-btn {
 }
 
 button.search-btn:hover {
-    background-color: black;
-    border-color: black;
+    background-color: black !important;
+    border-color: black !important;
 }
 
 
