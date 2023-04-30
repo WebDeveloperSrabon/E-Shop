@@ -52,7 +52,7 @@ button.search-btn {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: var(--btn);
+    background-color: #e26329 !important;
     color: #fff;
     border-color: var(--btn);
 }
